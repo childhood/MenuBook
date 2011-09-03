@@ -14,7 +14,22 @@
 		79D7B3B2141245B5005FA195 /* MenuBookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D7B3B1141245B5005FA195 /* MenuBookAppDelegate.m */; };
 		79D7B3B5141245B5005FA195 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D7B3B3141245B5005FA195 /* MainMenu.xib */; };
 		79D7B3B8141245B5005FA195 /* MenuBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79D7B3B6141245B5005FA195 /* MenuBook.xcdatamodeld */; };
+		79D7B3D014124634005FA195 /* PhFacebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D7B3CF14124634005FA195 /* PhFacebook.framework */; };
+		79D7B3D31412465E005FA195 /* PhFacebook.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79D7B3CF14124634005FA195 /* PhFacebook.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79D7B3D21412464F005FA195 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				79D7B3D31412465E005FA195 /* PhFacebook.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		79D7B39A141245B5005FA195 /* MenuBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,15 +37,16 @@
 		79D7B3A1141245B5005FA195 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		79D7B3A2141245B5005FA195 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		79D7B3A3141245B5005FA195 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		79D7B3A6141245B5005FA195 /* MenuBook-Info.plist */ = {isa = PBXFileReference; path = "MenuBook-Info.plist"; sourceTree = "<group>"; };
+		79D7B3A6141245B5005FA195 /* MenuBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MenuBook-Info.plist"; sourceTree = "<group>"; };
 		79D7B3A8141245B5005FA195 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79D7B3AA141245B5005FA195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		79D7B3AC141245B5005FA195 /* MenuBook-Prefix.pch */ = {isa = PBXFileReference; path = "MenuBook-Prefix.pch"; sourceTree = "<group>"; };
+		79D7B3AC141245B5005FA195 /* MenuBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MenuBook-Prefix.pch"; sourceTree = "<group>"; };
 		79D7B3AE141245B5005FA195 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		79D7B3B0141245B5005FA195 /* MenuBookAppDelegate.h */ = {isa = PBXFileReference; path = MenuBookAppDelegate.h; sourceTree = "<group>"; };
+		79D7B3B0141245B5005FA195 /* MenuBookAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuBookAppDelegate.h; sourceTree = "<group>"; };
 		79D7B3B1141245B5005FA195 /* MenuBookAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuBookAppDelegate.m; sourceTree = "<group>"; };
 		79D7B3B4141245B5005FA195 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		79D7B3B7141245B5005FA195 /* MenuBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MenuBook.xcdatamodel; sourceTree = "<group>"; };
+		79D7B3CF14124634005FA195 /* PhFacebook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhFacebook.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/MenuBook-gfchgnwtpjvwnmhaogrzknugnigi/Build/Products/Debug/PhFacebook.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D7B3D014124634005FA195 /* PhFacebook.framework in Frameworks */,
 				79D7B39F141245B5005FA195 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				79D7B39E141245B5005FA195 /* Cocoa.framework */,
+				79D7B3CF14124634005FA195 /* PhFacebook.framework */,
 				79D7B3A0141245B5005FA195 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -115,6 +133,7 @@
 				79D7B396141245B5005FA195 /* Sources */,
 				79D7B397141245B5005FA195 /* Frameworks */,
 				79D7B398141245B5005FA195 /* Resources */,
+				79D7B3D21412464F005FA195 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -252,6 +271,10 @@
 		79D7B3BC141245B5005FA195 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/MenuBook-gfchgnwtpjvwnmhaogrzknugnigi/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MenuBook/MenuBook-Prefix.pch";
 				INFOPLIST_FILE = "MenuBook/MenuBook-Info.plist";
@@ -263,6 +286,10 @@
 		79D7B3BD141245B5005FA195 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/MenuBook-gfchgnwtpjvwnmhaogrzknugnigi/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MenuBook/MenuBook-Prefix.pch";
 				INFOPLIST_FILE = "MenuBook/MenuBook-Info.plist";
@@ -290,6 +317,7 @@
 				79D7B3BD141245B5005FA195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
