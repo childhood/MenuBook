@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79D7B39F141245B5005FA195 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D7B39E141245B5005FA195 /* Cocoa.framework */; };
+		79D7B3A9141245B5005FA195 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79D7B3A7141245B5005FA195 /* InfoPlist.strings */; };
+		79D7B3AB141245B5005FA195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D7B3AA141245B5005FA195 /* main.m */; };
+		79D7B3AF141245B5005FA195 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 79D7B3AD141245B5005FA195 /* Credits.rtf */; };
+		79D7B3B2141245B5005FA195 /* MenuBookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D7B3B1141245B5005FA195 /* MenuBookAppDelegate.m */; };
+		79D7B3B5141245B5005FA195 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D7B3B3141245B5005FA195 /* MainMenu.xib */; };
+		79D7B3B8141245B5005FA195 /* MenuBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79D7B3B6141245B5005FA195 /* MenuBook.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79D7B39A141245B5005FA195 /* MenuBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D7B39E141245B5005FA195 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		79D7B3A1141245B5005FA195 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		79D7B3A2141245B5005FA195 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79D7B3A3141245B5005FA195 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79D7B3A6141245B5005FA195 /* MenuBook-Info.plist */ = {isa = PBXFileReference; path = "MenuBook-Info.plist"; sourceTree = "<group>"; };
+		79D7B3A8141245B5005FA195 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79D7B3AA141245B5005FA195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79D7B3AC141245B5005FA195 /* MenuBook-Prefix.pch */ = {isa = PBXFileReference; path = "MenuBook-Prefix.pch"; sourceTree = "<group>"; };
+		79D7B3AE141245B5005FA195 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		79D7B3B0141245B5005FA195 /* MenuBookAppDelegate.h */ = {isa = PBXFileReference; path = MenuBookAppDelegate.h; sourceTree = "<group>"; };
+		79D7B3B1141245B5005FA195 /* MenuBookAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuBookAppDelegate.m; sourceTree = "<group>"; };
+		79D7B3B4141245B5005FA195 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		79D7B3B7141245B5005FA195 /* MenuBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MenuBook.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79D7B397141245B5005FA195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D7B39F141245B5005FA195 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79D7B38F141245B5005FA195 = {
+			isa = PBXGroup;
+			children = (
+				79D7B3A4141245B5005FA195 /* MenuBook */,
+				79D7B39D141245B5005FA195 /* Frameworks */,
+				79D7B39B141245B5005FA195 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79D7B39B141245B5005FA195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79D7B39A141245B5005FA195 /* MenuBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79D7B39D141245B5005FA195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79D7B39E141245B5005FA195 /* Cocoa.framework */,
+				79D7B3A0141245B5005FA195 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79D7B3A0141245B5005FA195 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79D7B3A1141245B5005FA195 /* AppKit.framework */,
+				79D7B3A2141245B5005FA195 /* CoreData.framework */,
+				79D7B3A3141245B5005FA195 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		79D7B3A4141245B5005FA195 /* MenuBook */ = {
+			isa = PBXGroup;
+			children = (
+				79D7B3B0141245B5005FA195 /* MenuBookAppDelegate.h */,
+				79D7B3B1141245B5005FA195 /* MenuBookAppDelegate.m */,
+				79D7B3B3141245B5005FA195 /* MainMenu.xib */,
+				79D7B3B6141245B5005FA195 /* MenuBook.xcdatamodeld */,
+				79D7B3A5141245B5005FA195 /* Supporting Files */,
+			);
+			path = MenuBook;
+			sourceTree = "<group>";
+		};
+		79D7B3A5141245B5005FA195 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79D7B3A6141245B5005FA195 /* MenuBook-Info.plist */,
+				79D7B3A7141245B5005FA195 /* InfoPlist.strings */,
+				79D7B3AA141245B5005FA195 /* main.m */,
+				79D7B3AC141245B5005FA195 /* MenuBook-Prefix.pch */,
+				79D7B3AD141245B5005FA195 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79D7B399141245B5005FA195 /* MenuBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D7B3BB141245B5005FA195 /* Build configuration list for PBXNativeTarget "MenuBook" */;
+			buildPhases = (
+				79D7B396141245B5005FA195 /* Sources */,
+				79D7B397141245B5005FA195 /* Frameworks */,
+				79D7B398141245B5005FA195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuBook;
+			productName = MenuBook;
+			productReference = 79D7B39A141245B5005FA195 /* MenuBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79D7B391141245B5005FA195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Bostik SA";
+			};
+			buildConfigurationList = 79D7B394141245B5005FA195 /* Build configuration list for PBXProject "MenuBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79D7B38F141245B5005FA195;
+			productRefGroup = 79D7B39B141245B5005FA195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79D7B399141245B5005FA195 /* MenuBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79D7B398141245B5005FA195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D7B3A9141245B5005FA195 /* InfoPlist.strings in Resources */,
+				79D7B3AF141245B5005FA195 /* Credits.rtf in Resources */,
+				79D7B3B5141245B5005FA195 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79D7B396141245B5005FA195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D7B3AB141245B5005FA195 /* main.m in Sources */,
+				79D7B3B2141245B5005FA195 /* MenuBookAppDelegate.m in Sources */,
+				79D7B3B8141245B5005FA195 /* MenuBook.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79D7B3A7141245B5005FA195 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D7B3A8141245B5005FA195 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79D7B3AD141245B5005FA195 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D7B3AE141245B5005FA195 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		79D7B3B3141245B5005FA195 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D7B3B4141245B5005FA195 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79D7B3B9141245B5005FA195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79D7B3BA141245B5005FA195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79D7B3BC141245B5005FA195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuBook/MenuBook-Prefix.pch";
+				INFOPLIST_FILE = "MenuBook/MenuBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79D7B3BD141245B5005FA195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuBook/MenuBook-Prefix.pch";
+				INFOPLIST_FILE = "MenuBook/MenuBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79D7B394141245B5005FA195 /* Build configuration list for PBXProject "MenuBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D7B3B9141245B5005FA195 /* Debug */,
+				79D7B3BA141245B5005FA195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D7B3BB141245B5005FA195 /* Build configuration list for PBXNativeTarget "MenuBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D7B3BC141245B5005FA195 /* Debug */,
+				79D7B3BD141245B5005FA195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79D7B3B6141245B5005FA195 /* MenuBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79D7B3B7141245B5005FA195 /* MenuBook.xcdatamodel */,
+			);
+			currentVersion = 79D7B3B7141245B5005FA195 /* MenuBook.xcdatamodel */;
+			path = MenuBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79D7B391141245B5005FA195 /* Project object */;
+}

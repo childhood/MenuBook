@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MenuBook' target in the 'MenuBook' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
